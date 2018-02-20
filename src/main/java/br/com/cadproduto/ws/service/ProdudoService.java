@@ -30,7 +30,7 @@ public class ProdudoService {
 		clienteRepository.delete(produto);
 	}
 	
-	public Produto buscarId(Integer id) {
+	public Produto buscarId(long id) {
 		return clienteRepository.findOne(id);
 	}
 	

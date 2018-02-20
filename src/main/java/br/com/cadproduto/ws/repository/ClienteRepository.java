@@ -8,7 +8,7 @@ import org.springframework.transaction.annotation.Transactional;
 import br.com.cadproduto.ws.model.Produto;
 @Repository
 @Transactional
-public interface ClienteRepository extends JpaRepository<Produto, Integer>{
+public interface ClienteRepository extends JpaRepository<Produto, Long>{
 	
 }
 
